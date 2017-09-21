@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6000000"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="8dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="8dp"
+    >
+
+   <TextView
+       android:id="@+id/continue_play_tip"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#ffffff"
+       android:textSize="14dp"
+       android:gravity="center"
+       />
+
+    <TextView
+        android:id="@+id/continue_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/hotel_continue_play_bg"
+        android:padding="10dp"
+        android:text="继续播放"
+        />
+
+
+
+</LinearLayout>
+
